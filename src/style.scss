@@ -1,0 +1,65 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+$darkBlue: #1f363d;
+$medBlue: #40798c;
+$green: #70a9a1;
+$lightGreen: #9ec1a3;
+$light: #cfe0c3;
+
+body {
+  background-color: $lightGreen;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: $darkBlue;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $light;
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+}
+
+.main-container {
+  padding-top: 2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 90vw;
+  }
+  .btn-outline-secondary {
+    width: 3rem;
+    min-width: 1.5rem;
+    padding: 0.3rem;
+  }
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100vw;
+}
+.post {
+  width: 90vw;
+  max-width: 40rem;
+  border-bottom: 1px solid $darkBlue;
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.btn-active {
+  background-color: $medBlue;
+  color: $light;
+}
