@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ksense-react-app/static/css/main.3a8fa1da.css",
+    "main.js": "/ksense-react-app/static/js/main.cde4e71a.js",
+    "index.html": "/ksense-react-app/index.html",
+    "main.3a8fa1da.css.map": "/ksense-react-app/static/css/main.3a8fa1da.css.map",
+    "main.cde4e71a.js.map": "/ksense-react-app/static/js/main.cde4e71a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a8fa1da.css",
+    "static/js/main.cde4e71a.js"
+  ]
+}
